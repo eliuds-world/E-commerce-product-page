@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./dist/output.css" />
+	<title class="text-3xl font-bold z-20">Time Tracking Dashboard</title>
+</head>
+
+<body>
+	<div class="bg-slate-950 h-screen w-screen">
+		<div class="container flex justify-center items-center h-screen w-screen mx-auto">
+			<div class="grid grid-rows-2 grid-cols-4 w-screen h-1/2 gap-x-10 gap-y-8 ">
+				<!-- <div
+            class="bg-blue-950 row-start-1 row-end-3 col-start-1 col-end-2 h-96 flex flex-col justify-end rounded-xl"
+          > -->
+				<div class="bg-blue-950 row-start-1 row-end-3 col-start-1 col-end-2  h-auto w-max-64 rounded-xl">
+					<div class=" bg-blue-800 rounded-xl flex flex-col items-center justify-around h-80">
+						<div class="m-5">
+							<img src="./img/image-jeremy.png" alt=""
+								class="h-24 rounded-[50px] border-solid border-[4px] bg-white " />
+							<p class="text-white mt-7 opacity-50">Report for</p>
+							<h1 class="text-white text-3xl">Jeremy Robson</h1>
+						</div>
+					</div>
+					<div class="flex flex-col gap-3 m-5 ">
+						<p class="text-blue-200  cursor-pointer hover:text-white">Daily</p>
+						<p class="text-blue-200  cursor-pointer hover:text-white">Weekly</p>
+						<p class="text-blue-200  cursor-pointer hover:text-white">Monthly</p>
+					</div>
+				</div>
+
+				<!-- other small sections -->
+				<div
+					class="bg-orange-400 col-start-2 col-end-3 row-start-1 row-end-2 flex flex-col justify-end rounded-2xl">
+					<div class="flex justify-end pr-2 ">
+						<img src="./img/icon-work.svg" alt="" class="h-9 ">
+					</div>
+
+					<div class=" bg-blue-950 rounded-2xl h-[80%] w-max-[150px] mt-2 hover:bg-blue-900 cursor-pointer">
+						<div class="flex items-start justify-between p-3">
+							<p class="text-white">Work</p>
+							<img src="./img/icon-ellipsis.svg" alt="" class="mt-3 cursor-pointer">
+						</div>
+						<h1 class="text-white font-extrabold text-4xl p-3 ">32hrs</h1>
+						<p class="text-blue-200 p-3">Last Week-36hrs</p>
+					</div>
+				</div>
+
+				<div
+					class="bg-slate-500 col-start-3 col-end-4 row-start-1 row-end-2 flex flex-col justify-end rounded-2xl">
+					<div class="flex justify-end pr-2 ">
+						<img src="./img/icon-play.svg" alt="" class="h-9 ">
+					</div>
+
+					<div class=" bg-blue-950 rounded-2xl h-[80%] w-max-[150px] mt-2 hover:bg-blue-900 cursor-pointer">
+						<div class="flex items-start justify-between p-3">
+							<p class="text-white">Play</p>
+							<img src="./img/icon-ellipsis.svg" alt="" class="mt-3 cursor-pointer">
+						</div>
+						<h1 class="text-white font-extrabold text-4xl p-3 ">10hrs</h1>
+						<p class="text-blue-200 p-3">Last Week-8hrs</p>
+					</div>
+				</div>
+
+				<div
+					class="bg-pink-700 col-start-4 col-end-5 row-start-1 row-end-2 flex flex-col justify-end rounded-2xl ">
+					<div class="flex justify-end pr-2 ">
+						<img src="./img/icon-study.svg" alt="" class="h-9 ">
+					</div>
+
+					<div class=" bg-blue-950 rounded-2xl h-[80%] w-max-[150px] mt-2 hover:bg-blue-900 cursor-pointer">
+						<div class="flex items-start justify-between p-3">
+							<p class="text-white">Study</p>
+							<img src="./img/icon-ellipsis.svg" alt="" class="mt-3 cursor-pointer">
+						</div>
+						<h1 class="text-white font-extrabold text-4xl p-3 ">4hrs</h1>
+						<p class="text-blue-200 p-3">Last Week-7hrs</p>
+					</div>
+				</div>
+
+				<div
+					class="bg-green-500 col-start-2 col-end-3 row-start-2 row-end-3 flex flex-col justify-end rounded-2xl">
+					<div class="flex justify-end pr-2 ">
+						<img src="./img/icon-exercise.svg" alt="" class="h-9 ">
+					</div>
+
+					<div class=" bg-blue-950 rounded-2xl h-[80%] w-max-[150px] mt-2 hover:bg-blue-900 cursor-pointer">
+						<div class="flex items-start justify-between p-3">
+							<p class="text-white">Exercise</p>
+							<img src="./img/icon-ellipsis.svg" alt="" class="mt-3 cursor-pointer">
+						</div>
+						<h1 class="text-white font-extrabold text-4xl p-3 ">4hrs</h1>
+						<p class="text-blue-200 p-3">Last Week-5hrs</p>
+					</div>
+				</div>
+
+				<div
+					class="bg-purple-700 col-start-3 col-end-4 row-start-2 row-end-3 flex flex-col justify-end rounded-2xl">
+					<div class="flex justify-end pr-2 ">
+						<img src="./img/icon-social.svg" alt="" class="h-9 ">
+					</div>
+
+					<div class=" bg-blue-950 rounded-2xl h-[80%] w-max-[150px] mt-2 hover:bg-blue-900 cursor-pointer">
+						<div class="flex items-start justify-between p-3">
+							<p class="text-white">Social</p>
+							<img src="./img/icon-ellipsis.svg" alt="" class="mt-3 cursor-pointer">
+						</div>
+						<h1 class="text-white font-extrabold text-4xl p-3 ">5hrs</h1>
+						<p class="text-blue-200 p-3">Last Week-10hrs</p>
+					</div>
+				</div>
+
+				<div
+					class="bg-yellow-400 col-start-4 col-end-5 row-start-2 row-end-3 flex flex-col justify-end rounded-2xl">
+					<div class="flex justify-end pr-2 ">
+						<img src="./img/icon-self-care.svg" alt="" class="h-9 ">
+					</div>
+
+					<div class=" bg-blue-950 rounded-2xl h-[80%] w-max-[150px] mt-2 hover:bg-blue-900 cursor-pointer">
+						<div class="flex items-start justify-between p-3">
+							<p class="text-white">Self Care</p>
+							<img src="./img/icon-ellipsis.svg" alt="" class="mt-3 cursor-pointer">
+						</div>
+						<h1 class="text-white font-extrabold text-4xl p-3 ">2hrs</h1>
+						<p class="text-blue-200 p-3">Last Week-2hrs</p>
+					</div>
+				</div>
+
+			</div>
+
+			
+		</div>
+	</div>
+	</div>
+	
+</body>
+
+</html>
